@@ -1,0 +1,53 @@
+*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: relative;
+    left: 28%;
+    top: 8pc;
+    border: 5px solid;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 9pc;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    margin:10px 0 0 9pc;
+    cursor: pointer;
+}
+
+.male {
+    border-color: rgb(105, 105, 216);
+    background-color: rgb(112, 112, 223);
+    color: #fff;
+}
+
+.female {
+    border-color: rgb(202, 157, 164);
+    background-color: rgb(235, 156, 168);
+    color: #fff;
+}
